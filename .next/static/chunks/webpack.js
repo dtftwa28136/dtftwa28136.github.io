@@ -58,7 +58,7 @@
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/chunk loaded */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		var deferred = [];
 /******/ 		__webpack_require__.O = function(result, chunkIds, fn, priority) {
 /******/ 			if(chunkIds) {
@@ -89,10 +89,10 @@
 /******/ 			}
 /******/ 			return result;
 /******/ 		};
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/compat get default export */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
 /******/ 		__webpack_require__.n = function(module) {
 /******/ 			var getter = module && module.__esModule ?
@@ -101,10 +101,10 @@
 /******/ 			__webpack_require__.d(getter, { a: getter });
 /******/ 			return getter;
 /******/ 		};
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		// define getter functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
@@ -113,29 +113,29 @@
 /******/ 				}
 /******/ 			}
 /******/ 		};
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/get javascript update chunk filename */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		// This function allow to reference all chunks
 /******/ 		__webpack_require__.hu = function(chunkId) {
 /******/ 			// return url for filenames based on template
 /******/ 			return "static/webpack/" + chunkId + "." + __webpack_require__.h() + ".hot-update.js";
 /******/ 		};
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/get update manifest filename */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		__webpack_require__.hmrF = function() { return "static/webpack/" + __webpack_require__.h() + ".webpack.hot-update.json"; };
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		__webpack_require__.h = function() { return "4f4e15bd66fe0497"; }
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/global */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		__webpack_require__.g = (function() {
 /******/ 			if (typeof globalThis === 'object') return globalThis;
 /******/ 			try {
@@ -144,15 +144,15 @@
 /******/ 				if (typeof window === 'object') return window;
 /******/ 			}
 /******/ 		})();
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/load script */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		var inProgress = {};
 /******/ 		var dataWebpackPrefix = "_N_E:";
 /******/ 		// loadScript function to load a script via script tag
@@ -195,10 +195,10 @@
 /******/ 			script.onload = onScriptComplete.bind(null, script.onload);
 /******/ 			needAttach && document.head.appendChild(script);
 /******/ 		};
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		// define __esModule on exports
 /******/ 		__webpack_require__.r = function(exports) {
 /******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
@@ -206,24 +206,24 @@
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/node module decorator */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		__webpack_require__.nmd = function(module) {
 /******/ 			module.paths = [];
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/runtimeId */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		__webpack_require__.j = "webpack";
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/trusted types policy */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		var policy;
 /******/ 		__webpack_require__.tt = function() {
 /******/ 			// Create Trusted Type policy if Trusted Types are available and the policy doesn't exist yet.
@@ -238,20 +238,20 @@
 /******/ 			}
 /******/ 			return policy;
 /******/ 		};
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/trusted types script */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		__webpack_require__.ts = function(script) { return __webpack_require__.tt().createScript(script); };
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/trusted types script url */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		__webpack_require__.tu = function(url) { return __webpack_require__.tt().createScriptURL(url); };
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/hot module replacement */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		var currentModuleData = {};
 /******/ 		var installedModules = __webpack_require__.c;
 /******/ 		
@@ -642,15 +642,15 @@
 /******/ 				return true;
 /******/ 			}
 /******/ 		}
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		__webpack_require__.p = "/_next/";
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/react refresh */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		if (__webpack_require__.i) {
 /******/ 		__webpack_require__.i.push(function(options) {
 /******/ 			var originalFactory = options.factory;
@@ -665,7 +665,7 @@
 /******/ 			}
 /******/ 		})
 /******/ 		}
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/compat */
 /******/ 	
@@ -681,7 +681,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		// no baseURI
 /******/ 		
 /******/ 		// object to store loaded and loading chunks
@@ -1222,12 +1222,12 @@
 /******/ 		var chunkLoadingGlobal = self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
-/******/ 	!function() {
+/******/ 	!(function() {
 /******/ 		__webpack_require__.nc = undefined;
-/******/ 	}();
+/******/ 	}());
 /******/ 	
 /************************************************************************/
 /******/ 	
